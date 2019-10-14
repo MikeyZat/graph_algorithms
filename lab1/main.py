@@ -69,7 +69,7 @@ def test_find_union(union_list):
 # main
 
 (V, L) = load_weighted_graph("rand100_500")
-union_list = [[i, 0] for i in range(V+1)]
+union_list = [[i, 0] for i in range(V + 1)]
 sort_descending(L)
 
 result = L[0][2]
@@ -78,8 +78,5 @@ for edge in L:
     union(edge[0], edge[1], union_list)
     result = min(edge[2], result)
     if union_list[1][0] == union_list[V][0]:
-        print(result)
+        print("Result = ", result)
         break
-
-
-
