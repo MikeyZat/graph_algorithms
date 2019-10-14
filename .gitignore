@@ -1,2 +1,14 @@
-# python libraries
-venv/
+.idea
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+deploy_key
+/public
+/.env
+.venv
+.pytest_cache
+pg_data/
+deployment/group_vars/github.yml
