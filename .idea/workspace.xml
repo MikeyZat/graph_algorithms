@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34f8b324-55c2-420c-ad22-8e74518f54bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab2/Edge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/clique100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/clique20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/clique5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/dimacs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/grid100x100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/grid5x5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/pp100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/rand100_500" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/rand20_100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/simple" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/simple2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/trivial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/trivial2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/worstcase" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laby_graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laby_graph.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Edge.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/Edge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/clique100" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/clique100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/clique20" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/clique20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/clique5" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/clique5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/grid100x100" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/grid100x100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/grid5x5" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/grid5x5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/pp100" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/pp100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/rand100_500" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/rand100_500" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/rand20_100" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/rand20_100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/simple" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/simple" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/simple2" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/simple2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/trivial" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/trivial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/trivial2" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/trivial2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/worstcase" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graphs/worstcase" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +44,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\programy\projects\laby_graph\lab2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\programy\projects\laby_graph\lab2" />
       <recent name="C:\Users\mikey\OneDrive\Pulpit\projects\laby_graph\lab1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programy\projects\laby_graph\lab2\graphs" />
+      <recent name="D:\programy\projects\laby_graph\lab2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,6 +155,8 @@
       <workItem from="1571423827006" duration="159000" />
       <workItem from="1571748655222" duration="49000" />
       <workItem from="1572251938904" duration="5184000" />
+      <workItem from="1572257303422" duration="28000" />
+      <workItem from="1572280311472" duration="3457000" />
     </task>
     <servers />
   </component>
@@ -188,7 +188,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/laby_graph$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1572256520248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
+    <SUITE FILE_PATH="coverage/laby_graph$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1572283766749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
     <SUITE FILE_PATH="coverage/laby_graph$dimacs.coverage" NAME="dimacs Coverage Results" MODIFIED="1571040620406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Pobrane" />
     <SUITE FILE_PATH="coverage/laby_graph$main.coverage" NAME="main Coverage Results" MODIFIED="1572252525734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1" />
   </component>

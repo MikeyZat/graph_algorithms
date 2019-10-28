@@ -3,8 +3,13 @@ from lab2.Graph import *
 from collections import deque
 
 
-def bfs(graph, starting_v, end_v):
-    print('### BFS ####')
+def print_graph(graph):
+    for edge_list in graph.vertices_list:
+        for edge in edge_list:
+            print(edge)
+
+
+def bfs(graph, starting_v):
     queue = deque()
     visited_v = [0] * graph.size
     edge_to_parent = [None] * graph.size
@@ -16,12 +21,14 @@ def bfs(graph, starting_v, end_v):
         for edge in edge_list:
             if visited_v[edge.end_v] == 0 and edge.capacity > 0:
                 queue.append(edge.end_v)
-                print(edge)
                 visited_v[edge.end_v] = 1
-                edge_to_parent[edge.end_v] = edge
+                edge_to_parent[edge.end_v] = (edge, edge.correspondive_edge)
         visited_v[v] = 2
-    print('### END BFS ###')
+    return visited_v, edge_to_parent
 
+
+def find_path_and_update(graph, starting_v, end_v):
+    visited_v, edge_to_parent = bfs(graph, starting_v)
     if visited_v[end_v] == 2:
         graph.update(edge_to_parent, end_v)
         return True
@@ -29,25 +36,25 @@ def bfs(graph, starting_v, end_v):
     return False
 
 
-(V, L) = loadDirectedWeightedGraph("simple")
+(V, L) = loadDirectedWeightedGraph("graphs/worstcase")
 graph = Graph(V)
-residual_graph = Graph(V)
+residual_graph = Graph(V, True)
 
-for (start_v, end_v, flow) in L:
-    graph.add_edge(flow, start_v, end_v)
-    residual_graph.add_edge(flow, start_v, end_v)
-    residual_graph.add_edge(0, end_v, start_v)
-
-print('###################')
-
-for edge_list in residual_graph.vertices_list:
-    for edge in edge_list:
-        print(edge)
+for (start_v, end_v, capacity) in L:
+    graph.add_edge(capacity, start_v, end_v)
+    residual_graph.add_edge(capacity, start_v, end_v)
 
 print('###################')
 
-bfs(residual_graph, 1, V)
+print('Graph:')
+print_graph(graph)
+print('Residual graph created:')
+print_graph(residual_graph)
 
-for edge_list in residual_graph.vertices_list:
-    for edge in edge_list:
-        print(edge)
+print('###################')
+
+b = find_path_and_update(residual_graph, 1, V)
+while b:
+    b = find_path_and_update(residual_graph, 1, V)
+
+print(residual_graph.flow)
