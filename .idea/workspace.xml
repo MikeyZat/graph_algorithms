@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34f8b324-55c2-420c-ad22-8e74518f54bf" name="Default Changelist" comment="" />
+    <list default="true" id="34f8b324-55c2-420c-ad22-8e74518f54bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab2/Edge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/Graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/clique100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/clique20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/clique5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/dimacs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/grid100x100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/grid5x5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/pp100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/rand100_500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/rand20_100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/simple" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/simple2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/trivial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/trivial2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/worstcase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laby_graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laby_graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +43,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab1" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programy\projects\laby_graph\lab2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programy\projects\laby_graph\lab2" />
       <recent name="C:\Users\mikey\OneDrive\Pulpit\projects\laby_graph\lab1" />
     </key>
   </component>
@@ -42,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="dimacs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="laby_graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="laby_graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,8 +98,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2" />
       <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="laby_graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\programy\projects\geometric_algorithms\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -89,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.dimacs" />
       </list>
@@ -106,6 +154,9 @@
       <updated>1571040359740</updated>
       <workItem from="1571040360865" duration="3566000" />
       <workItem from="1571043976426" duration="97000" />
+      <workItem from="1571423827006" duration="159000" />
+      <workItem from="1571748655222" duration="49000" />
+      <workItem from="1572251938904" duration="5184000" />
     </task>
     <servers />
   </component>
@@ -125,8 +176,20 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lab1/main.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/laby_graph$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1572256520248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
     <SUITE FILE_PATH="coverage/laby_graph$dimacs.coverage" NAME="dimacs Coverage Results" MODIFIED="1571040620406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Pobrane" />
-    <SUITE FILE_PATH="coverage/laby_graph$main.coverage" NAME="main Coverage Results" MODIFIED="1571043700138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1" />
+    <SUITE FILE_PATH="coverage/laby_graph$main.coverage" NAME="main Coverage Results" MODIFIED="1572252525734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1" />
   </component>
 </project>
