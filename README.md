@@ -2,4 +2,4 @@
 Basic graph algorithms resolved in python
 
 Algorithms covered:
-- Maxiumum flow problem ( FordFulkerson )
+- Maxiumum flow problem ( Ford-Fulkerson )
