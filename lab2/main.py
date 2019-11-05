@@ -1,8 +1,7 @@
 from lab2.dimacs import *
 from lab2.Graph import *
 from collections import deque
-import time
-
+import os
 
 def print_graph(graph):
     for edge_list in graph.vertices_list:
@@ -37,26 +36,23 @@ def find_path_and_update(graph, starting_v, end_v):
     return False
 
 
-(V, L) = loadDirectedWeightedGraph("graphs/grid100x100")
-graph = Graph(V)
-residual_graph = Graph(V, True)
+def ford_fulkerson(graph_name):
+    (V, L) = loadDirectedWeightedGraph(graph_name)
+    residual_graph = Graph(V, True)
 
-for (start_v, end_v, capacity) in L:
-    graph.add_edge(capacity, start_v, end_v)
-    residual_graph.add_edge(capacity, start_v, end_v)
+    for (start_v, end_v, capacity) in L:
+        residual_graph.add_edge(capacity, start_v, end_v)
 
-# print('###################')
-#
-# print('Graph:')
-# print_graph(graph)
-# print('Residual graph created:')
-# print_graph(residual_graph)
+    # print('###################')
+    #
+    # print('Graph:')
+    # print_graph(graph)
+    # print('Residual graph created:')
+    # print_graph(residual_graph)
 
-print('###################')
-start = time.time()
-b = find_path_and_update(residual_graph, 1, V)
-while b:
+    print('###################')
     b = find_path_and_update(residual_graph, 1, V)
-stop = time.time() - start
-print(residual_graph.flow)
-print(stop)
+    while b:
+        b = find_path_and_update(residual_graph, 1, V)
+    return residual_graph.flow
+
