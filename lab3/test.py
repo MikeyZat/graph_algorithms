@@ -1,6 +1,6 @@
 import unittest
 import os
-from lab3.main import ford_fulkerson
+from lab3.main import ford_fulkerson, stoer_wagner
 
 
 def get_result_from_file(graph_dir, file_name):
@@ -30,6 +30,24 @@ class FordFulkerson(unittest.TestCase):
             self.assertEqual(
                 self.results.get(graph_name),
                 ford_fulkerson(f'{self.graph_dir}/{graph_name}'),
+                f'Testing {graph_name}')
+
+
+class StoerWagner(unittest.TestCase):
+
+    def setUp(self):
+        self.graph_dir = "graphs"
+        files = os.listdir(self.graph_dir)
+        self.results = {}
+        for file in files:
+            self.results[file] = get_result_from_file(self.graph_dir, file)
+
+    def test_stoer_wagner(self):
+        files = os.listdir("graphs")
+        for graph_name in files:
+            self.assertEqual(
+                self.results.get(graph_name),
+                stoer_wagner(f'{self.graph_dir}/{graph_name}'),
                 f'Testing {graph_name}')
 
 

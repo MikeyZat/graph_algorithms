@@ -1,7 +1,8 @@
 class Vertex:
-    def __init__(self):
+    def __init__(self, i):
         self.edges = {}  # słownik par mapujący wierzchołki do których są krawędzie na ich wagi
         self.merged = False
+        self.index = i
 
     def add_edge(self, to, weight):
         self.edges[to] = self.edges.get(to, 0) + weight  # dodaj krawędź do zadanego wierzchołka
@@ -9,7 +10,13 @@ class Vertex:
         # istnieje, to dodaj do niej wagę
 
     def del_edge(self, to):
-        del self.edges[to]
+        try:
+            del self.edges[to]
+        except:
+            print("ERROR WHILE DELETING")
+            print(self.index)
+            print(to)
+            Exception()
 
     def set_merged(self):
         self.edges = {}

@@ -30,13 +30,37 @@ def print_graph(graph):
 
 
 def minimum_cut_phase(graph):
-    last_vertex = graph.vertices_list[1]
-    S = set(1)
+    # print_graph(graph)
+    result = 0
+    starting_index = 1
+    previous_vertex = last_vertex = starting_index
+    # currently available vertices (these already merged don't count)
+    V = set([vertex for vertex in graph.vertices_list if not vertex.merged and vertex.index != 0])
+    # Set to which we will add vertices
+    S = [False for _ in range(len(graph.vertices_list) + 1)]
+    # current distance (used for priority queue)
+    dist = [0 for _ in range(len(graph.vertices_list) + 1)]
+    # Make starting vertex visited
+    V.remove(graph.vertices_list[starting_index])
+    S[starting_index] = True
+
     Q = PriorityQueue()
-    while len(S) < graph.size:
-        for vertex_index in last_vertex.edges.keys():
-            if vertex_index not in S:
-                Q.put((-last_vertex.edges[vertex_index], vertex_index))
+
+    while len(V) > 0:
+        previous_vertex = last_vertex
+
+        for vertex_index, value in graph.vertices_list[previous_vertex].edges.items():
+            if not S[vertex_index]:
+                dist[vertex_index] += value
+                Q.put((-dist[vertex_index], vertex_index))
+        result, last_vertex = Q.get()
+        if not S[last_vertex]:
+            S[last_vertex] = True
+            V.remove(graph.vertices_list[last_vertex])
+
+    graph.merge_vertices(previous_vertex, last_vertex)
+    return -result
+
 
 def stoer_wagner(graph_name):
     (V, L) = loadDirectedWeightedGraph(graph_name)
@@ -44,14 +68,10 @@ def stoer_wagner(graph_name):
     for (start_v, end_v, capacity) in L:
         graph.add_edge(start_v, end_v, capacity)
 
-
-    minimum_cut_phase(graph)
-
-    # print('###################')
-    # b = find_path_and_update(graph, 1, V)
-    # while b:
-    #     b = find_path_and_update(graph, 1, V)
-    # return graph.flow
+    result = minimum_cut_phase(graph)
+    while graph.size != 1:
+        result = min(result, minimum_cut_phase(graph))
+    return result
 
 
-stoer_wagner('graphs/clique5')
+print(stoer_wagner('graphs/rand100_500'))
