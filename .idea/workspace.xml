@@ -2,122 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34f8b324-55c2-420c-ad22-8e74518f54bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/AT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/K33" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/clique100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/clique20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/clique200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/clique4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/clique5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/cycle3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/cycle4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/cycle6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/example-fig5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/franklin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/grid5x5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/grotzsch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/house" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/interval-rnd10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/interval-rnd100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/interval-rnd20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/interval-rnd30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/interval-rnd50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/interval-rnd6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/interval-rnd8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/nonplanar-ex1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/nonplanar-ex2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/path" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/simple" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/simple-noninterval1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/chordal/simple-noninterval2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/.path.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/AT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/clique100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/clique20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/clique200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/clique4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/clique5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/cycle3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/example-fig5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/house" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/interval-rnd10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/interval-rnd100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/interval-rnd20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/interval-rnd30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/interval-rnd50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/interval-rnd6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/interval-rnd8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/nonplanar-ex1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/path" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/simple" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/simple-noninterval1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/coloring/simple-noninterval2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/AT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/clique100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/clique20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/clique200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/clique4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/clique5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/cycle3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/example-fig5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/house" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/interval-rnd10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/interval-rnd100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/interval-rnd20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/interval-rnd30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/interval-rnd50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/interval-rnd6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/interval-rnd8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/nonplanar-ex1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/path" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/simple" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/simple-noninterval1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/interval/simple-noninterval2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/AT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/clique100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/clique20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/clique200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/clique4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/clique5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/cycle3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/example-fig5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/house" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/interval-rnd10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/interval-rnd100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/interval-rnd20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/interval-rnd30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/interval-rnd50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/interval-rnd6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/interval-rnd8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/nonplanar-ex1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/path" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/simple" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/simple-noninterval1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/maxclique/simple-noninterval2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/.simple-noninterval2.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/AT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/clique100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/clique20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/clique200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/clique4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/clique5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/cycle3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/example-fig5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/house" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/interval-rnd10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/interval-rnd100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/interval-rnd20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/interval-rnd30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/interval-rnd50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/interval-rnd6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/interval-rnd8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/nonplanar-ex1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/path" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/simple" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/simple-noninterval1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/graphs/vcover/simple-noninterval2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -323,7 +209,8 @@
       <workItem from="1575115962219" duration="9039000" />
       <workItem from="1575135361595" duration="154000" />
       <workItem from="1575136325347" duration="133000" />
-      <workItem from="1575276036446" duration="5436000" />
+      <workItem from="1575276036446" duration="5487000" />
+      <workItem from="1575284946087" duration="831000" />
     </task>
     <servers />
   </component>
@@ -364,6 +251,6 @@
     <SUITE FILE_PATH="coverage/laby_graph$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1572984854221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
     <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_FordFulkerson_test_ford_fulkerson__1_.coverage" NAME="Unittests for test.FordFulkerson.test_ford_fulkerson (1) Coverage Results" MODIFIED="1574068578348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
     <SUITE FILE_PATH="coverage/laby_graph$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1575278668828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
-    <SUITE FILE_PATH="coverage/laby_graph$main.coverage" NAME="main Coverage Results" MODIFIED="1575281427482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$main.coverage" NAME="main Coverage Results" MODIFIED="1575285760015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
   </component>
 </project>

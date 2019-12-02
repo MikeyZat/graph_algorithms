@@ -55,18 +55,27 @@ def lexBFS(V, G):
     return order
 
 
-def get_RN_list(order, V, G):
-    RN = []
+def get_rn_list(order, V, G):
+    RN = [ 0 for _ in range(V+1)]
     for i in range(V):
-        RN.append([ order[j] for j in range (i) if order[j] in G[i+1].out])
+        RN[order[i]] = [ order[j] for j in range (i) if order[j] in G[order[i]].out]
     return RN
 
 
-(V, L) = loadWeightedGraph('graphs/chordal/interval-rnd100')
+def check_if_on(rn, V):
+    for i in range(1, V):
+        if len(rn[i]) > 0:
+            parent = rn[i][-1]
+            if not((set(rn[i]) - {parent}) <= set(rn[parent])):
+                return False
+    return True
+
+(V, L) = loadWeightedGraph('graphs/chordal/k33')
 G = [None] + [Node(i) for i in range(1, V + 1)]
 for (u, v, _) in L:
     G[u].connect_to(v)
     G[v].connect_to(u)
 
 order = lexBFS(V, G)
-RN = get_RN_list(order, V, G)
+RN = get_rn_list(order, V, G)
+is_diagonal = check_if_on(RN, V)
