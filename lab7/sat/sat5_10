@@ -1,4 +1,4 @@
-c solution=1
+c solution= 1
 p cnf 5 10
 -2 -4 0
 -4 -5 0
