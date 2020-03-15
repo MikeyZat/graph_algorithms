@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34f8b324-55c2-420c-ad22-8e74518f54bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab7/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Vertex.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Vertex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat100_100" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat100_100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat100_150" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat100_150" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat100_200" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat100_200" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat100_250" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat100_250" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat100_400" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat100_400" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat15_30" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat15_30" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat30_100" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat30_100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat30_50" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat30_50" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat5_10" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat5_10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/sat5_20" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/sat5_20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/sat/simple_sat" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/sat/simple_sat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -43,15 +52,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab7" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programy\projects\laby_graph\lab7" />
+      <recent name="D:\programy\projects\laby_graph\lab4\graphs" />
       <recent name="D:\programy\projects\laby_graph\lab3" />
       <recent name="D:\programy\projects\laby_graph\lab3\graphs" />
       <recent name="D:\programy\projects\laby_graph\lab2" />
-      <recent name="C:\Users\mikey\OneDrive\Pulpit\projects\laby_graph\lab1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programy\projects\laby_graph\lab2\graphs" />
@@ -70,8 +80,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test.FormulaTest">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="laby_graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,12 +89,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab7/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,88 +103,80 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test.FordFulkerson" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="laby_graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.DiagonalGraphs.test_coloring" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="laby_graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.FordFulkerson&quot;" />
+      <option name="_new_target" value="&quot;test.DiagonalGraphs.test_coloring&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test.FordFulkerson.test_ford_fulkerson" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test.DiagonalGraphs.test_cover" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="laby_graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.FordFulkerson.test_ford_fulkerson&quot;" />
+      <option name="_new_target" value="&quot;test.DiagonalGraphs.test_cover&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test.FordFulkerson.test_ford_fulkerson" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test.FormulaTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="laby_graph" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.FordFulkerson.test_ford_fulkerson&quot;" />
+      <option name="_new_target" value="&quot;test.FormulaTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test.StoerWagner" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="laby_graph" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.StoerWagner&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="laby_graph" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab2/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python tests.Unittests for test.StoerWagner" />
-        <item itemvalue="Python tests.Unittests for test.FordFulkerson" />
-        <item itemvalue="Python tests.Unittests for test.FordFulkerson.test_ford_fulkerson" />
-        <item itemvalue="Python tests.Unittests in test.py" />
+        <item itemvalue="Python tests.Unittests for test.FormulaTest" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Unittests for test.DiagonalGraphs.test_cover" />
+        <item itemvalue="Python tests.Unittests for test.DiagonalGraphs.test_coloring" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +204,13 @@
       <workItem from="1572982361794" duration="2687000" />
       <workItem from="1574066557318" duration="5014000" />
       <workItem from="1575115962219" duration="9039000" />
+      <workItem from="1575135361595" duration="154000" />
+      <workItem from="1575136325347" duration="133000" />
+      <workItem from="1575276036446" duration="5487000" />
+      <workItem from="1575284946087" duration="831000" />
+      <workItem from="1575989116175" duration="270000" />
+      <workItem from="1576433475207" duration="655000" />
+      <workItem from="1576485652458" duration="5296000" />
     </task>
     <servers />
   </component>
@@ -233,15 +242,22 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_FordFulkerson__1_.coverage" NAME="Unittests for test.FordFulkerson (1) Coverage Results" MODIFIED="1574068247385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
-    <SUITE FILE_PATH="coverage/laby_graph$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1572983523350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_FordFulkerson__1_.coverage" NAME="Unittests for test.FordFulkerson (1) Coverage Results" MODIFIED="1575280855058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_DiagonalGraphs.coverage" NAME="Unittests for test.DiagonalGraphs Coverage Results" MODIFIED="1576488653009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_DiagonalGraphs_test_cover.coverage" NAME="Unittests for test.DiagonalGraphs.test_cover Coverage Results" MODIFIED="1576490989214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1578908427415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_StoerWagner.coverage" NAME="Unittests for test.StoerWagner Coverage Results" MODIFIED="1575125338565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_DiagonalGraphs_test_max_clique_size.coverage" NAME="Unittests for test.DiagonalGraphs.test_max_clique_size Coverage Results" MODIFIED="1576487488360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_DiagonalGraphs_test_coloring.coverage" NAME="Unittests for test.DiagonalGraphs.test_coloring Coverage Results" MODIFIED="1576489888376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1576488708167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$main.coverage" NAME="main Coverage Results" MODIFIED="1576491000468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_DiagonalGraphs_test_is_diagonal.coverage" NAME="Unittests for test.DiagonalGraphs.test_is_diagonal Coverage Results" MODIFIED="1576488680139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_FormulaTest.coverage" NAME="Unittests for test.FormulaTest Coverage Results" MODIFIED="1578909069284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_FordFulkerson_test_ford_fulkerson.coverage" NAME="Unittests for test.FordFulkerson.test_ford_fulkerson Coverage Results" MODIFIED="1574067092418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
     <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_FordFulkerson.coverage" NAME="Unittests for test.FordFulkerson Coverage Results" MODIFIED="1575125289746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
+    <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_DiagonalGraphs_test_lex_bfs.coverage" NAME="Unittests for test.DiagonalGraphs.test_lex_bfs Coverage Results" MODIFIED="1576489349173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
     <SUITE FILE_PATH="coverage/laby_graph$dimacs.coverage" NAME="dimacs Coverage Results" MODIFIED="1571040620406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Pobrane" />
-    <SUITE FILE_PATH="coverage/laby_graph$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1572984854221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
     <SUITE FILE_PATH="coverage/laby_graph$Unittests_for_test_FordFulkerson_test_ford_fulkerson__1_.coverage" NAME="Unittests for test.FordFulkerson.test_ford_fulkerson (1) Coverage Results" MODIFIED="1574068578348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
-    <SUITE FILE_PATH="coverage/laby_graph$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1575126434147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
-    <SUITE FILE_PATH="coverage/laby_graph$main.coverage" NAME="main Coverage Results" MODIFIED="1572252525734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1" />
+    <SUITE FILE_PATH="coverage/laby_graph$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1575278668828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab3" />
   </component>
 </project>
